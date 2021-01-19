@@ -1,0 +1,8 @@
+plugin.tx_html_purify {
+    # ====================================
+    # Settings used by purify viewhelper for default values
+    # ====================================
+    settings {
+        allowedHtmlTags = {$plugin.tx_html_purify.settings.allowedHtmlTags}
+    }
+}

@@ -1,0 +1,28 @@
+{
+	"name": "elementareteilchen/html-purify",
+	"type": "typo3-cms-extension",
+	"description": "Adds html purify functionality as viewhelper and service class",
+	"keywords": [
+		"TYPO3",
+		"extension"
+	],
+	"authors": [
+		{
+			"name": "Sebastian Müller",
+			"role": "Developer",
+			"homepage": "http://elementare-teilchen.de"
+		}
+	],
+	"license": [
+		"GPL-2.0+"
+	],
+	"require": {
+		"typo3/cms-core": "^10.4",
+		"ezyang/htmlpurifier": "^4.13"
+	},
+	"autoload": {
+		"psr-4": {
+			"ElementareTeilchen\\HtmlPurify\\": "Classes"
+		}
+	}
+}

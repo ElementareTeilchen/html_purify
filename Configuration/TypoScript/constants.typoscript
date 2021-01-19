@@ -1,0 +1,8 @@
+plugin.tx_html_purify {
+    # ====================================
+    # Settings used by purify viewhelper for default values
+    # ====================================
+    settings {
+        allowedHtmlTags = h1,h2,h3,p,strong,br,em,ol,ul,li
+    }
+}
