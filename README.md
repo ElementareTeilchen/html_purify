@@ -17,10 +17,6 @@ Simply install the extension with Composer.
 This extension uses [ezyang/htmlpurifier](https://github.com/ezyang/htmlpurifier),
 which is set as composer requirement to be loaded automatically.
 
-You need to activate the extension:
-
-   `typo3cms install:generatepackagestates`
-
 ## Usage
 
 ### Viewhelper
