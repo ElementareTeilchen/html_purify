@@ -1,0 +1,9 @@
+{
+  "config": {
+    "classmap-authoritative": true,
+    "prepend-autoloader": false
+  },
+  "require": {
+    "ezyang/htmlpurifier": "^4.13"
+  }
+}
