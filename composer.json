@@ -24,5 +24,10 @@
 		"psr-4": {
 			"ElementareTeilchen\\HtmlPurify\\": "Classes"
 		}
+	},
+	"extra": {
+		"typo3/cms": {
+			"extension-key": "html_purify"
+		}
 	}
 }
