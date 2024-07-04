@@ -10,6 +10,7 @@ namespace ElementareTeilchen\HtmlPurify\ViewHelpers;
  * LICENSE.txt file that was distributed with this source code.
  */
 
+use TYPO3\CMS\Extbase\Configuration\ConfigurationManager;
 use ElementareTeilchen\HtmlPurify\Service\PurifyService;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
 use TYPO3\CMS\Extbase\Configuration\ConfigurationManagerInterface;
@@ -91,7 +92,7 @@ class PurifyViewHelper extends AbstractViewHelper
 
         // use typoscript default values if configured
         } else {
-            $configurationManager = GeneralUtility::makeInstance('TYPO3\\CMS\\Extbase\\Configuration\\ConfigurationManager');
+            $configurationManager = GeneralUtility::makeInstance(ConfigurationManager::class);
             $typoScript = $configurationManager->getConfiguration(
                 ConfigurationManagerInterface::CONFIGURATION_TYPE_SETTINGS,
                 'html_purify'
