@@ -4,6 +4,6 @@
     "prepend-autoloader": false
   },
   "require": {
-    "ezyang/htmlpurifier": "^4.13"
+    "ezyang/htmlpurifier": "^4.17"
   }
 }
